@@ -1,0 +1,108 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.List_books{
+  text-align: left;
+  align-items: center;
+  margin-left: 1.75%;
+}
+h1.Title{
+  color:#fff ;
+  align-items: center;
+  text-align: center;
+  padding: 0.25em;
+  padding-top: 0.4em;
+}
+header{
+  background-color: rgb(0, 184, 0);
+}
+.input{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 1em;
+  background-color: #333;
+  background-position: center;
+  background-size: 10%;
+  
+  /* border-style: solid;
+  border-radius: 0em;
+  border-width: 1em; */
+  border: none;
+  /* width: 50%;
+  height: 75%; */
+  margin: 2em;
+  margin-left: 2em;
+  padding: 4em;
+  display: block ;
+  
+  
+}
+#book_name{
+  tab-size: 5em;
+}
+button{
+  border: none;
+  border-radius: 1em;
+  margin: 2em;
+  background-color: rgb(0, 253, 106);
+  padding-left: 1em;
+  padding-right: 1em;
+  
+}
+button:hover{
+  background-color: yellow;
+}
+input{
+  width: 30%;
+  padding: 1em;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+input[type="text"]{
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.books{
+  text-align: left;
+  border: none;
+  width: 91%;
+  height: 35%;
+  margin: 25px;
+  padding: 1em;
+  display: inline-block;
+  background-position: center;
+  justify-content: center;
+  background-color: #333;
+  padding-left: 5%;
+  /*align-items: center;
+  align-content: center; */
+}
+aside{
+  align-items: right;
+}
+.bookname{
+  text-align: center;
+}
+.delete{
+  border: none;
+  border-radius: 1em;
+  margin: 2em;
+  background-color: rgb(223, 0, 0);
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.delete:hover{
+  background-color: rgb(255, 49, 49);
+}
+.update{
+  border: none;
+  border-radius: 1em;
+  margin: 2em;
+  background-color: rgb(224, 221, 0);
+  padding-left: 1em;
+  padding-right: 1em;
+}
